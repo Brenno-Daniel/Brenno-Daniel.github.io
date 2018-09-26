@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    background-color: cyan;
+    background: linear-gradient( 50deg,#24C6DC, #514A9D);
+    background: -webkit-linear-gradient( 50deg,#24C6DC, #514A9D);
+    background: -moz-linear-gradient( 50deg,#24C6DC, #514A9D);
+    background: -o-linear-gradient( 50deg,#24C6DC, #514A9D);
+}
+/* ESTILIZAÇÃO DAS FONTES */
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.0;
+    padding: 0;
+}
+h3{
+    font-family: 'Montserrat', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+p, a{
+    color: #FFF;
+    font-family: 'Montserrat', Courier, monospace;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+/* FIM ESTILIZAÇÃO DAS FONTES */
+
+.container{
+    max-width: 1036px;
+    color: #FFF;
+}
+.navbar, .navbar-default{
+    background-color: transparent;
+}
+.barra-topo{
+    min-height: 150px;
+    border: none;
+    background-color: cyan;
+    background: linear-gradient( 50deg,#35D7ED, rgb(109, 102, 177));
+    background: -webkit-linear-gradient( 50deg,#35D7ED, rgb(109, 102, 177));
+    background: -moz-linear-gradient( 50deg,#35D7ED, rgb(109, 102, 177));
+    background: -o-linear-gradient( 50deg,#35D7ED, rgb(109, 102, 177));
+}
+.links-sociais{
+    width: 48%;
+    float: left;
+}
+.link-curriculum{
+    width: 48%;
+    line-height: 50px;
+    float: right;
+    text-align: right;
+}
+.btn{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #FFF;
+    background-color: rgb(118, 110, 184);
+    background-color: -webkit-rgb(118, 110, 184);
+    background-color: -moz-rgb(118, 110, 184);
+    background-color: -o-rgb(118, 110, 184);
+    box-shadow: 2px 5px 0px #FFF;
+    border: 1px solid #FFF;
+}
+.conteudo-principal{
+    min-height: 400px;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.foto-perfil{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    margin-bottom: 10px;
+    border: 2px solid #FFF;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.perfil{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.perfil-info{
+    margin-top: 10px;
+}
+.navbar-inverse{
+    min-height: 100px;
+    margin-bottom: 0;
+    border: none;
+    background-color: darkcyan;
+    background: linear-gradient( 80deg,rgb(0, 139, 139),rgb(87, 79, 158));
+    background: -webkit-linear-gradient( 80deg,rgb(0, 139, 139),rgb(87, 79, 158));
+    background: -moz-linear-gradient( 80deg,#23B5CB,rgb(87, 79, 158));
+    background: -o-linear-gradient( 80deg,rgb(0, 139, 139),rgb(87, 79, 158));
+}
+.contato{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* SUBMENU PARA EXIBIR AS INFORMAÇÕES SOBRE O SITE AO PASSAR O MOUSE */
+.submenuf{
+    width: 100%;
+    position: relative;
+    display: none;
+}
+.menuf:hover .submenuf{
+    display: block;
+}
